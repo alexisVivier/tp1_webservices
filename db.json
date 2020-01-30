@@ -1,0 +1,34 @@
+{
+    "user" : [
+        {
+            "id" : 1,
+            "name" : "Alexis"
+        },
+        {
+            "id" : 2,
+            "name" : "Mouje"
+        }
+    ],
+
+    "photo": [
+        {
+            "id" : 1,
+            "title" : "Image 1"
+        },
+        {
+            "id" : 2,
+            "title" : "Image 2"
+        }
+    ],
+
+    "album" : [
+        {
+            "id" : 1,
+            "title" : "Image 1"
+        },
+        {
+            "id" : 2,
+            "title" : "Image 2"
+        }
+    ]
+}
