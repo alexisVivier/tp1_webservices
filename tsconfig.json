@@ -30,6 +30,7 @@
     },
     "include": [
         "src/**/*.ts",
+        "src/**/*.js",
         "types"
     ],
     "exclude": [

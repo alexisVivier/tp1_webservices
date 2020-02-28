@@ -1,34 +1,64 @@
 {
-    "user" : [
-        {
-            "id" : 1,
-            "name" : "Alexis"
-        },
-        {
-            "id" : 2,
-            "name" : "Mouje"
-        }
-    ],
-
-    "photo": [
-        {
-            "id" : 1,
-            "title" : "Image 1"
-        },
-        {
-            "id" : 2,
-            "title" : "Image 2"
-        }
-    ],
-
-    "album" : [
-        {
-            "id" : 1,
-            "title" : "Image 1"
-        },
-        {
-            "id" : 2,
-            "title" : "Image 2"
-        }
-    ]
+  "user": [
+    {
+      "firstName": "Alexass",
+      "lastName": "Vivier",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "lastName": "Huet",
+      "firstName": "Mouje"
+    },
+    {
+      "id": 3,
+      "lastName": "Monfouga",
+      "firstName": "Hugo"
+    },
+    {
+      "id": 4,
+      "lastName": "Hervouet",
+      "firstName": "Nathoune"
+    },
+    {
+      "id": 5,
+      "lastName": "Tonton",
+      "firstName": "Luc"
+    }
+  ],
+  "photo": [
+    {
+      "id": 1,
+      "title": "titre photo 1",
+      "creationDate": "2020-01-31T00:00:00.000Z",
+      "album" : 1
+    },
+    {
+      "id": 2,
+      "title": "Photo 2",
+      "creationDate": "2020-01-31T00:00:00.000Z",
+      "album" : 1
+    },
+    {
+      "id": 3,
+      "title": "Photo 3",
+      "creationDate": "2020-01-31T00:00:00.000Z",
+      "album" : 2
+    }
+  ],
+  "album": [
+    {
+      "title": "doublec",
+      "creationDate": "2020-03-02T00:00:00.000Z",
+      "id": 1,
+      "user": 1
+    },
+    
+    {
+      "title": "double c",
+      "creationDate": "2020-03-02T00:00:00.000Z",
+      "id": 2,
+      "user": 5
+    }
+  ]
 }
